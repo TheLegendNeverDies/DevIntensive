@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Александр Данильченко</string>
+    <string name="hint_mobile">Мобильный</string>
+    <string name="_phone">+3806315151543</string>
+    <string name="textEmail">Kastiel1995@gmail.com</string>
+    <string name="hintEmail">E-mail</string>
+    <string name="hintVk">Профиль в Vk</string>
+    <string name="textVk">vk.com/vengance</string>
+    <string name="hintRep">Репозиторий</string>
+    <string name="textRep">github.com/TheLegendNeverDies/DevIntensive</string>
+    <string name="hintAbout">О себе</string>
+    <string name="textAbout">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="ratingCount">5</string>
+    <string name="ratingLabel">Рейтинг</string>
+    <string name="writtenLabel">Написано строк кода</string>
+    <string name="projectsLabel">Проектов</string>
+    <string name="projectsCount">11</string>
+    <string name="writtenCount">666</string>
 </resources>
