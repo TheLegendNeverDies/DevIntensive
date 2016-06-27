@@ -3,9 +3,85 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+
+    <style name="fields">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="icon">
+        <item name="android:layout_width">@dimen/size_small_24</item>
+        <item name="android:layout_height">@dimen/size_small_24</item>
+        <item name="android:layout_marginTop">@dimen/margin_24</item>
+    </style>
+
+    <style name="icon.left" parent="icon">
+        <item name="android:gravity">top|left</item>
+        <item name="android:layout_marginLeft">@dimen/margin_16</item>
+    </style>
+
+    <style name="icon.right" parent="icon">
+        <item name="android:gravity">top|right</item>
+        <item name="android:layout_marginRight">@dimen/margin_24</item>
+    </style>
+
+    <style name="inputWithHint">
+        <item name="android:layout_width">@dimen/size_0</item>
+        <item name="android:layout_height">@dimen/size_large_72</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/margin_32</item>
+        <item name="android:layout_marginRight">@dimen/margin_16</item>
+    </style>
+
+    <style name="line">
+        <item name="android:background">@color/gray_light</item>
+    </style>
+
+    <style name="line.horizontal" parent="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginLeft">@dimen/margin_72</item>
+        <item name="android:layout_marginTop">@dimen/margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/margin_8</item>
+    </style>
+    <style name="line.vertical" parent="line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/gray_ver</item>
+
+    </style>
+
+    <style name="info_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="status_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">112dp</item>
+        <item name="android:paddingTop">@dimen/spacing_half_normal_28</item>
+        <item name="android:paddingBottom">@dimen/spacing_half_normal_28</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="status_bar_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+    <style name="status_bar_text.value" parent="status_bar_text">
+        <item name="android:textSize">24sp</item>
     </style>
 
 </resources>
