@@ -16,4 +16,6 @@
     <string name="projectsLabel">Проектов</string>
     <string name="projectsCount">11</string>
     <string name="writtenCount">666</string>
+    <string name="profileTitle">Мой Профиль</string>
+    <string name="teamTitle">Команда</string>
 </resources>
