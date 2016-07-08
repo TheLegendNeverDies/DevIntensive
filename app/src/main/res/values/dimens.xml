@@ -35,6 +35,14 @@
     <dimen name="font_normal_15">15sp</dimen>
     <dimen name="font_large_12">18sp</dimen>
     <dimen name="font_larger_12">22sp</dimen>
+    <dimen name="photo_size_256">256dp</dimen>
+
+    <dimen name="line_size">1dp</dimen>
+
+    <dimen name="auth_linear_margin_top">144dp</dimen>
+    <dimen name="enter_text_size">24sp</dimen>
+    <dimen name="auth_field_text_size">18sp</dimen>
+    <dimen name="auth_forget_text_size">14sp</dimen>
 
 
 </resources>
