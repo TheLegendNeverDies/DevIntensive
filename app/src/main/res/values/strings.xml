@@ -18,4 +18,16 @@
     <string name="writtenCount">666</string>
     <string name="profileTitle">Мой Профиль</string>
     <string name="teamTitle">Команда</string>
+    <string name="profile_photo_hint">Изменить фото профиля</string>
+    <string name="user_profile_dialog.gallery">Загрузить из галереи</string>
+    <string name="user_profile_dialog.photo">Сделать снимок</string>
+    <string name="user_profile_dialog.cancel">Отмена</string>
+    <string name="user_profile_dialog.title">Изменить фотографию профиля</string>
+    <string name="Enter_text">Войти</string>
+    <string name="user_profile_chose_message">выберите фото</string>
+    <string name="email_login">Email</string>
+    <string name="login_login">Login</string>
+    <string name="password_login">Пароль</string>
+    <string name="enter_login">Войти</string>
+    <string name="forget_password_login">Forget password?</string>
 </resources>
