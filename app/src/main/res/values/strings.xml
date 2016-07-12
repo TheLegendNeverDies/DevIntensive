@@ -18,4 +18,18 @@
     <string name="writtenCount">666</string>
     <string name="profileTitle">Мой Профиль</string>
     <string name="teamTitle">Команда</string>
+    <!--AuthActivity-->
+    <string name="auth.authorization_enter">Войти</string>
+    <string name="auth.email">Введите e-mail</string>
+    <string name="auth.password">Введите пароль</string>
+    <string name="auth.login">Войти</string>
+    <string name="auth.remember">Забыли пароль?</string>
+
+    <string name="user_profile.plaseholder.image">Изменить фотографию профиля</string>
+    <string name="user_profile.chose.message">Выберите фото</string>
+    <string name="user_profile.dialog.gallery">Загрузить из галлереи</string>
+    <string name="user_profile.dialog.camera">Сделать снимок</string>
+    <string name="user_profile.dialog.cancel">Отмена</string>
+    <string name="user_profile.dialog.title">Изменить фотографию профиля</string>
+    <string name="edit_photo_hint">Изменить фото</string>
 </resources>

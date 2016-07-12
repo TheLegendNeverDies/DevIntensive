@@ -112,5 +112,9 @@
     <style name="custom_dialog">
         <item name="android:fullDark">@android:color/transparent</item>
     </style>
+    <style name="AppTheme.Button.Red" parent="Base.Widget.AppCompat.Button">
+        <item name="android:colorButtonNormal">@color/color_accent</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
 
 </resources>
