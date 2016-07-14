@@ -59,6 +59,7 @@
                             android:layout_centerHorizontal="true"
                             android:layout_marginBottom="@dimen/margin_8"
                             android:layout_above="@+id/photo_placeholder"/>
+                        
                         <ImageView
                             android:id="@+id/photo_placeholder"
                             android:layout_width="wrap_content"
